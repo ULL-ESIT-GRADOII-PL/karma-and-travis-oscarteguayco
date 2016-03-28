@@ -5,7 +5,6 @@ var del     = require('del');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
 
-var gulp = require('gulp');
 var ghPages = require('gulp-gh-pages');
 
 
