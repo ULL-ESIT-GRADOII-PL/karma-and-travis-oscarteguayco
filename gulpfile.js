@@ -5,6 +5,10 @@ var del     = require('del');
 var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
 
+var gulp = require('gulp');
+var ghPages = require('gulp-gh-pages');
+
+
 gulp.task('minify', function () {           // Tarea para compactar ficheros
   gulp.src('./assets/js/temperatura.js')    // Definición de los ficheros fuente
   .pipe(uglify())                           // 'Afear' los ficheros (compactarlos)
@@ -34,3 +38,8 @@ gulp.task('minify', function () {           // Tarea para compactar ficheros
 gulp.task('clean', function(cb) {           // Tarea para limpiar el directorio minified
   del(['minified/*'], cb);
 });
+
+gulp.task('deploy', function() {
+    return gulp.src('./**/*')
+      .pipe(ghPages());
+  });
