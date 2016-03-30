@@ -10,14 +10,27 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['mocha', 'chai'],
 
 
     // list of files / patterns to load in the browser
     files: [
+      'assents/js/*.js',
+      'vendor/mocha.js',
+      'vendor/mocha.css',
+      'vendor/chai.js',
       'temperatura_test.js',
       'test.html'
     ],
+    
+    plugins:[
+      'karma-mocha',
+      'karma-firefox-launcher',
+      'karma-chrome-launcher',
+      'karma-sourcemap-loader',
+      'karma-chai',
+      'karma-html2js-preprocessor'
+      ],
 
 
     // list of files to exclude
@@ -28,6 +41,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'test.html': ['html2js']
     },
 
 
