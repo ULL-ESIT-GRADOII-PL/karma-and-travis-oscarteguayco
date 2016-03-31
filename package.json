@@ -24,6 +24,7 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
-    "karma-mocha": "^0.2.2"
+    "karma-mocha": "^0.2.2",
+    "mocha": "^2.4.5"
   }
 }
