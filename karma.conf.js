@@ -15,10 +15,9 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'assents/js/*.js',
-      'vendor/mocha.js',
-      'vendor/mocha.css',
-      'vendor/chai.js',
+      'assets/js/*.js',
+      'vendor/*',
+      'xregexp-all.js',
       'temperatura_test.js',
       'test.html'
     ],
