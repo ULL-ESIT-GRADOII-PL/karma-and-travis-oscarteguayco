@@ -26,7 +26,8 @@ module.exports = function(config) {
       'karma-mocha',
       'karma-firefox-launcher',
       'karma-chrome-launcher',
-      'karma-phantom-launcher',
+      'karma-jasmine', 
+      'karma-phantomjs-launcher',
       'karma-sourcemap-loader',
       'karma-chai',
       'karma-html2js-preprocessor'
