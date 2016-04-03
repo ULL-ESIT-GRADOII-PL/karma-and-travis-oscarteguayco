@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/ULL-ESIT-GRADOII-PL/karma-and-travis-oscarteguayco.svg?branch=master)](https://travis-ci.org/ULL-ESIT-GRADOII-PL/karma-and-travis-oscarteguayco)
-
+[![Build Status](https://travis-ci.org/ULL-ESIT-GRADOII-PL/karma-and-travis-oscarteguayco.svg?branch=karma)](https://travis-ci.org/ULL-ESIT-GRADOII-PL/karma-and-travis-oscarteguayco)
 # Karma y Travis
 
 En esta práctica se añaden pruebas con Karma y Travis a la práctica anterior de 'Mocha, Chai y Sinon'. 
