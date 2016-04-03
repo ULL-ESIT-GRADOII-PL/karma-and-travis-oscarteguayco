@@ -2,7 +2,8 @@
 
 # Karma y Travis
 
-En esta práctica se añaden pruebas con Karma y Travis a la práctica anterior de 'Mocha, Chai y Sinon'.
+En esta práctica se añaden pruebas con Karma y Travis a la práctica anterior de 'Mocha, Chai y Sinon'. 
+Se añade también una nueva tarea al gulpfile para facilitar el despliegue de la aplicación en la rama gh-pages.
 
 
 **Repositorio GitHuB**
